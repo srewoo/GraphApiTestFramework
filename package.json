@@ -1,0 +1,27 @@
+{
+    "name": "graphapitestframework",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "mocha": {
+        "timeout": 30000
+    },
+    "scripts": {
+        "test-functional": "mocha \"test/functional/**/*.test.js\" --parallel",
+        "test-load": "artillery run load/load-test-api1.js --output load-test-results.json && artillery report --output load-test-report.html load-test-results.json",
+        "test": "mocha 'tests/functional/**/*.test.js'"
+    },
+    "dependencies": {
+        "axios": "^1.7.6",
+        "chai": "^4.3.4"
+    },
+    "devDependencies": {
+        "ajv": "^8.17.1",
+        "chai-json-schema": "^1.5.1",
+        "dotenv": "^16.4.5",
+        "k6": "^0.0.0",
+        "mocha": "^10.7.3",
+        "mochawesome": "^7.1.3"
+    }
+}

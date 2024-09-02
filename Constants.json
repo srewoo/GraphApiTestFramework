@@ -1,0 +1,17 @@
+{
+    "validURL": "https://meet.google.com/fjb-jqnx-jfi?authuser=1&pli=1",
+    "inValidURL": "https://meet.zoom.com/",
+    "inValidSessionID": "sdfghjklkjuytr3456bnm",
+    "API_URL": "https://hubspotcallai.integration.mindtickle.com",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "dnt": "1",
+    "pragma": "no-cache",
+    "sec-ch-ua-mobile": "?0",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-origin": "admin.integration.mindtickle.com",
+    "title":"Impromptu Meeting",
+    "participants":["sharaj.rewoo@mindtickle.com"]
+}

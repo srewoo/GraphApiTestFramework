@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "scheduleCall": {
+          "type": "object",
+          "properties": {
+            "success": { "type": "boolean" }
+          },
+          "required": ["success"]
+        }
+      },
+      "required": ["scheduleCall"]
+    },
+    "extensions": { "type": "object" }
+  },
+  "required": ["data", "extensions"]
+}

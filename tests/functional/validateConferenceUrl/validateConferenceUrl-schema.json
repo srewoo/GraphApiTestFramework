@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+      "data": {
+        "type": "object",
+        "properties": {
+          "validateConferenceUrl": {
+            "type": "object",
+            "properties": {
+              "errorCode": {
+                "type": ["string", "null"]
+              },
+              "success": {
+                "type": "boolean"
+              }
+            },
+            "required": ["errorCode", "success"]
+          }
+        },
+        "required": ["validateConferenceUrl"]
+      },
+      "extensions": {
+        "type": "object",
+        "properties": {},
+        "additionalProperties": false
+      }
+    },
+    "required": ["data", "extensions"]
+  }
